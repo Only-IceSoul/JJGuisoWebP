@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JJGuisoWebP_Example' do
+  pod 'JJGuisoWebP', :path => '../'
+
+  target 'JJGuisoWebP_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
