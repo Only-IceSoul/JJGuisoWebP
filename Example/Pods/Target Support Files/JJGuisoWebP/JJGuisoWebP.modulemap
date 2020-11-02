@@ -1,0 +1,6 @@
+framework module JJGuisoWebP {
+  umbrella header "JJGuisoWebP-umbrella.h"
+
+  export *
+  module * { export * }
+}

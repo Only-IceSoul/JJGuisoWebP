@@ -20,9 +20,14 @@ it, simply add the following line to your Podfile:
 pod 'JJGuisoWebP'
 ```
 
-## Author
+## Usage
 
-only-icesoul, justinjlf21@gmail.com
+```swift
+   let animatedImage = GuisoWebPDecoder().decode(WebpData)
+
+   print("frames count ",animatedImage.frames.count)
+   
+```
 
 ## License
 

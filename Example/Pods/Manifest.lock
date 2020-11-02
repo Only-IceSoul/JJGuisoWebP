@@ -1,0 +1,16 @@
+PODS:
+  - JJGuisoWebP (0.1.0)
+
+DEPENDENCIES:
+  - JJGuisoWebP (from `../`)
+
+EXTERNAL SOURCES:
+  JJGuisoWebP:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JJGuisoWebP: 6a0b581f0decea99886eb3a5c054636e6510a297
+
+PODFILE CHECKSUM: b52a8531c0d4a51321056ded0fe9ff1c7a7d2f7b
+
+COCOAPODS: 1.10.0

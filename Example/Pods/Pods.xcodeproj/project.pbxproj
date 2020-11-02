@@ -1,0 +1,927 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0059480273C8C88CDD72C59C7320DC70 /* WebPDemuxTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A8ED3ABE2F2FBB56AB688A91A93F9B5 /* WebPDemuxTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00DDDC39AAFA81107C16B1549E16C9B3 /* Pods-JJGuisoWebP_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AACCA796DA68AD0B77BD5E1E29023DD8 /* Pods-JJGuisoWebP_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		070D8FF01E71372845A3900E9F3F8314 /* WebPEncode.h in Headers */ = {isa = PBXBuildFile; fileRef = 73635156210327F46449E85EE3B5B278 /* WebPEncode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		140F17B951F52F948480C9B01A151B7F /* WebPMux.h in Headers */ = {isa = PBXBuildFile; fileRef = 34E4783FB026377C8EE536BA98C98B6B /* WebPMux.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A25F025BD47E89558ECD23CE6F2D14E /* WebPMuxTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = C8F1A52A22F95F589E3BD3096FE82378 /* WebPMuxTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D14E434F6FA52A1287151B12B32B75B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		224147B993E72C3600AC0172198A9106 /* WebPDemux.h in Headers */ = {isa = PBXBuildFile; fileRef = C7146A31F8F353865B55B1206A4BDB57 /* WebPDemux.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2334EF13A8E4EE806C50ED13106909DA /* WebPMuxMux.h in Headers */ = {isa = PBXBuildFile; fileRef = CC4993C7A1D9B8A4E1F530FAE4C2ED24 /* WebPMuxMux.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2984C18F9BFE7778AFFD6EF8D0B8777C /* WebPAnimated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9A21BF84BBAF12EF7DA0B0EC9F5409 /* WebPAnimated.swift */; };
+		2CCCE5EC8764398DA316E1A5D2830A6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		33D0E8B565FDE11D83B001DD1847392A /* WebPDemuxMux_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 124B5EB0B12538AD2C36383CF64119F5 /* WebPDemuxMux_types.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34D284DF692EAEC567E7FBAA8DCD22BA /* Pods-JJGuisoWebP_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FB0CD97D68E7EF4AEFD5D868A7C047 /* Pods-JJGuisoWebP_Example-dummy.m */; };
+		3661F23B3A9C6347EA41A34E9378BA03 /* WebPDecode.h in Headers */ = {isa = PBXBuildFile; fileRef = EFCE4B3439EBD64C838C5760E49245BD /* WebPDecode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56E9571B03EB05EFFDF58C52ADC78E1D /* WebPDemuxDemux.h in Headers */ = {isa = PBXBuildFile; fileRef = 1119DF48591F649EDD403BAB7569B947 /* WebPDemuxDemux.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60B797062BFEC31B0CDA89C85E22CFF9 /* GuisoWebpDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B692B7ABB6B2861DDCCA2233C55CAD5 /* GuisoWebpDecoder.swift */; };
+		62A7AFAE3ECD3ED59899B7DD3209D9F2 /* WebP.h in Headers */ = {isa = PBXBuildFile; fileRef = B233D7D7628C47252EAA0906CECFB0B3 /* WebP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67A0841A10E54F3CFCF9639E48914FD0 /* JJGuisoWebP-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 411BA329CD523265FAA48B936B0C0C55 /* JJGuisoWebP-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FDE6847856847DE6A995602E3664907 /* WebPDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = DC1D93F5F3BBEEB7A68614EF8D8B6EB8 /* WebPDecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F6F0998F17032ADFC349E67EE8D94EA /* Pods-JJGuisoWebP_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64C4419BC51C6789FAE22E68C0719558 /* Pods-JJGuisoWebP_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		821BD1FA030D0F606EF3529727ACF85D /* WebPMuxMux_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 6953D3A97A2A2935469FE7AAF9A0C60A /* WebPMuxMux_types.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAE906A6C8A9CCB470E2C6077D6496A5 /* WebPTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 09D7283AE19C88BFBDB44320211DA8CC /* WebPTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4DF8BD7DA2201212DBF271FFCFEF1B6 /* WebPDecoderTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B0A9BCEDF524B828B268E92B051AD6C /* WebPDecoderTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA89EA91099E8A52D41F7FB12AD3ADDB /* Pods-JJGuisoWebP_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C56354461318A80AD2FE48ACAD3F0367 /* Pods-JJGuisoWebP_Tests-dummy.m */; };
+		E3939EAC6A5BF32C17F4E406E47E889B /* JJGuisoWebP-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F310621E98CB0BB95402E150765421 /* JJGuisoWebP-dummy.m */; };
+		EACFBF55D40E7D1CA2565542538876F4 /* WebPDemuxDecode.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B6B4BB4549581715891EEED57D037BD /* WebPDemuxDecode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAD17BBF8706C0A26E9FFAF548EFECCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FC03FDEB2FCF8B50F9A20A561FB4896F /* WebPDecoderDecode.h in Headers */ = {isa = PBXBuildFile; fileRef = 96580D2E5542FEB87F2479A4BC5A8473 /* WebPDecoderDecode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14109053D85CE628972A5EB7B58C124A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A06E75C2AB66206C76F4F3DC3042523E;
+			remoteInfo = JJGuisoWebP;
+		};
+		5480C83C390234C119C9175B2FBBE0EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF7431E963762B43AE55A699D45844F5;
+			remoteInfo = "Pods-JJGuisoWebP_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		032EBE980DC681C6566AEC8BF350F065 /* JJGuisoWebP-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JJGuisoWebP-Info.plist"; sourceTree = "<group>"; };
+		09D7283AE19C88BFBDB44320211DA8CC /* WebPTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WebPTypes.h; sourceTree = "<group>"; };
+		10F310621E98CB0BB95402E150765421 /* JJGuisoWebP-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JJGuisoWebP-dummy.m"; sourceTree = "<group>"; };
+		1119DF48591F649EDD403BAB7569B947 /* WebPDemuxDemux.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WebPDemuxDemux.h; sourceTree = "<group>"; };
+		124B5EB0B12538AD2C36383CF64119F5 /* WebPDemuxMux_types.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WebPDemuxMux_types.h; sourceTree = "<group>"; };
+		1286BABE0A68F93DFF4941515130D567 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1994B39E40B40D124B25A0B85558178F /* Pods-JJGuisoWebP_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JJGuisoWebP_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1B0A9BCEDF524B828B268E92B051AD6C /* WebPDecoderTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WebPDecoderTypes.h; sourceTree = "<group>"; };
+		1D73A46D2D6CB00295A59F9A0D83C06C /* WebP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebP.framework; sourceTree = "<group>"; };
+		1F7350CB500C8F0BC4DE333630D67D66 /* Pods-JJGuisoWebP_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JJGuisoWebP_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2A8ED3ABE2F2FBB56AB688A91A93F9B5 /* WebPDemuxTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WebPDemuxTypes.h; sourceTree = "<group>"; };
+		2B9A21BF84BBAF12EF7DA0B0EC9F5409 /* WebPAnimated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebPAnimated.swift; path = src/WebPAnimated.swift; sourceTree = "<group>"; };
+		2BC3ED1E838C461867AD2222F41727F4 /* JJGuisoWebP-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JJGuisoWebP-prefix.pch"; sourceTree = "<group>"; };
+		2C0E868A55E39179CFC7AB1C96DAC502 /* Pods-JJGuisoWebP_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JJGuisoWebP_Example.modulemap"; sourceTree = "<group>"; };
+		34E4783FB026377C8EE536BA98C98B6B /* WebPMux.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WebPMux.h; sourceTree = "<group>"; };
+		38D9C9D04B3E3E5A29DE45EE33189EDC /* Pods-JJGuisoWebP_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JJGuisoWebP_Tests.modulemap"; sourceTree = "<group>"; };
+		39B457CF01C42F6EBF04A9224D64D86F /* Pods-JJGuisoWebP_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JJGuisoWebP_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3BEDFD461A3CE6A4D232F77D671D42EA /* JJGuisoWebP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JJGuisoWebP.framework; path = JJGuisoWebP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		411BA329CD523265FAA48B936B0C0C55 /* JJGuisoWebP-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JJGuisoWebP-umbrella.h"; sourceTree = "<group>"; };
+		4A992BB960DD398B2A9F811C0D1250C2 /* WebPDemux.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebPDemux.framework; sourceTree = "<group>"; };
+		5F4D9E504E6E1182DF3B5708750F8670 /* JJGuisoWebP.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JJGuisoWebP.modulemap; sourceTree = "<group>"; };
+		64C4419BC51C6789FAE22E68C0719558 /* Pods-JJGuisoWebP_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JJGuisoWebP_Tests-umbrella.h"; sourceTree = "<group>"; };
+		64C4AA3D9519C1C7ED96775818838488 /* JJGuisoWebP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JJGuisoWebP.debug.xcconfig; sourceTree = "<group>"; };
+		6953D3A97A2A2935469FE7AAF9A0C60A /* WebPMuxMux_types.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WebPMuxMux_types.h; sourceTree = "<group>"; };
+		6E1F9F6E8665D31EE85805B96AA0C5B8 /* Pods-JJGuisoWebP_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JJGuisoWebP_Example-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73635156210327F46449E85EE3B5B278 /* WebPEncode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WebPEncode.h; sourceTree = "<group>"; };
+		769DA30B5FAC963D696FBDED415C83AA /* Pods_JJGuisoWebP_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JJGuisoWebP_Example.framework; path = "Pods-JJGuisoWebP_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79BF8C16E625BEE1F5B9A60257EAC72D /* Pods-JJGuisoWebP_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JJGuisoWebP_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		82A58C2565C6C7E1B0F9D030C1D4C2B1 /* JJGuisoWebP.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JJGuisoWebP.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		82FB0CD97D68E7EF4AEFD5D868A7C047 /* Pods-JJGuisoWebP_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JJGuisoWebP_Example-dummy.m"; sourceTree = "<group>"; };
+		86D07177B35C2B88DB1BE5507899227C /* WebPDecoder.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebPDecoder.framework; sourceTree = "<group>"; };
+		8B277F94B56A360129F362167E6E21BE /* Pods-JJGuisoWebP_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JJGuisoWebP_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8B6B4BB4549581715891EEED57D037BD /* WebPDemuxDecode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WebPDemuxDecode.h; sourceTree = "<group>"; };
+		914D9D9B8F56069688F022F080EC26E8 /* Pods_JJGuisoWebP_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JJGuisoWebP_Tests.framework; path = "Pods-JJGuisoWebP_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96580D2E5542FEB87F2479A4BC5A8473 /* WebPDecoderDecode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WebPDecoderDecode.h; sourceTree = "<group>"; };
+		96C0D2976850F1099256B81BD85D61E6 /* Pods-JJGuisoWebP_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JJGuisoWebP_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9B692B7ABB6B2861DDCCA2233C55CAD5 /* GuisoWebpDecoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GuisoWebpDecoder.swift; path = src/GuisoWebpDecoder.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FEB854CBEEE57F18FC839996A0898F8 /* JJGuisoWebP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JJGuisoWebP.release.xcconfig; sourceTree = "<group>"; };
+		A903CD7FE1B5B4EA8E159EA883F087DC /* Pods-JJGuisoWebP_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JJGuisoWebP_Tests-Info.plist"; sourceTree = "<group>"; };
+		AACCA796DA68AD0B77BD5E1E29023DD8 /* Pods-JJGuisoWebP_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JJGuisoWebP_Example-umbrella.h"; sourceTree = "<group>"; };
+		AB77C5C4B77BCAF75EA2146485980365 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B233D7D7628C47252EAA0906CECFB0B3 /* WebP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WebP.h; sourceTree = "<group>"; };
+		B4EE1C7418A12FF73BA5D2E32665DA18 /* WebPMux.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebPMux.framework; sourceTree = "<group>"; };
+		C56354461318A80AD2FE48ACAD3F0367 /* Pods-JJGuisoWebP_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JJGuisoWebP_Tests-dummy.m"; sourceTree = "<group>"; };
+		C7146A31F8F353865B55B1206A4BDB57 /* WebPDemux.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WebPDemux.h; sourceTree = "<group>"; };
+		C8F1A52A22F95F589E3BD3096FE82378 /* WebPMuxTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WebPMuxTypes.h; sourceTree = "<group>"; };
+		CBEABDED86E2F670A25C3813D1583A52 /* Pods-JJGuisoWebP_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JJGuisoWebP_Example-frameworks.sh"; sourceTree = "<group>"; };
+		CC4993C7A1D9B8A4E1F530FAE4C2ED24 /* WebPMuxMux.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WebPMuxMux.h; sourceTree = "<group>"; };
+		DC1D93F5F3BBEEB7A68614EF8D8B6EB8 /* WebPDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WebPDecoder.h; sourceTree = "<group>"; };
+		DEEE5F1C2AF5D0140F7D6D949E7E617A /* Pods-JJGuisoWebP_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JJGuisoWebP_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		EFCE4B3439EBD64C838C5760E49245BD /* WebPDecode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WebPDecode.h; sourceTree = "<group>"; };
+		F22545F18CCEF1D338FC05CEE58066C1 /* Pods-JJGuisoWebP_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JJGuisoWebP_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		098404D334E2947AE0F26E426A9ACE33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D14E434F6FA52A1287151B12B32B75B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33E38B94EFA7486340E5E0220E97C9A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CCCE5EC8764398DA316E1A5D2830A6E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		720768D3F03FA84D4F84FFB9BA1B7215 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD17BBF8706C0A26E9FFAF548EFECCB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03AA2A4CD3900AEC13AED46282B1820F /* WebPMux.framework */ = {
+			isa = PBXGroup;
+			children = (
+				9FE0D9541ECC9D84F7F6E1DAE5E45738 /* Headers */,
+			);
+			name = WebPMux.framework;
+			path = WebPMux.framework;
+			sourceTree = "<group>";
+		};
+		12396DADA32551193434D33447900B8D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				69DEF65B6AD5869EDD07A693D6DCC128 /* Pods-JJGuisoWebP_Example */,
+				B103CCA0F7777F4BD83684C4D287ED16 /* Pods-JJGuisoWebP_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		34329B68279C1F5D794B367799ABCF7D /* JJGuisoWebP */ = {
+			isa = PBXGroup;
+			children = (
+				9B692B7ABB6B2861DDCCA2233C55CAD5 /* GuisoWebpDecoder.swift */,
+				2B9A21BF84BBAF12EF7DA0B0EC9F5409 /* WebPAnimated.swift */,
+				6EDC2EA53EC2924B01578907C8DFBCC5 /* Frameworks */,
+				CC2AD64BE0DB095EADE0A945F40786A2 /* Pod */,
+				633E197D12FE5F31950BBAF17D86D84F /* Support Files */,
+			);
+			name = JJGuisoWebP;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		450FBCF47872E7C1635168D804D42ABA /* WebP.framework */ = {
+			isa = PBXGroup;
+			children = (
+				9C252C9ECE7F2969100A36EDB84980FE /* Headers */,
+			);
+			name = WebP.framework;
+			path = WebP.framework;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		633E197D12FE5F31950BBAF17D86D84F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F4D9E504E6E1182DF3B5708750F8670 /* JJGuisoWebP.modulemap */,
+				10F310621E98CB0BB95402E150765421 /* JJGuisoWebP-dummy.m */,
+				032EBE980DC681C6566AEC8BF350F065 /* JJGuisoWebP-Info.plist */,
+				2BC3ED1E838C461867AD2222F41727F4 /* JJGuisoWebP-prefix.pch */,
+				411BA329CD523265FAA48B936B0C0C55 /* JJGuisoWebP-umbrella.h */,
+				64C4AA3D9519C1C7ED96775818838488 /* JJGuisoWebP.debug.xcconfig */,
+				9FEB854CBEEE57F18FC839996A0898F8 /* JJGuisoWebP.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JJGuisoWebP";
+			sourceTree = "<group>";
+		};
+		69DEF65B6AD5869EDD07A693D6DCC128 /* Pods-JJGuisoWebP_Example */ = {
+			isa = PBXGroup;
+			children = (
+				2C0E868A55E39179CFC7AB1C96DAC502 /* Pods-JJGuisoWebP_Example.modulemap */,
+				8B277F94B56A360129F362167E6E21BE /* Pods-JJGuisoWebP_Example-acknowledgements.markdown */,
+				F22545F18CCEF1D338FC05CEE58066C1 /* Pods-JJGuisoWebP_Example-acknowledgements.plist */,
+				82FB0CD97D68E7EF4AEFD5D868A7C047 /* Pods-JJGuisoWebP_Example-dummy.m */,
+				CBEABDED86E2F670A25C3813D1583A52 /* Pods-JJGuisoWebP_Example-frameworks.sh */,
+				6E1F9F6E8665D31EE85805B96AA0C5B8 /* Pods-JJGuisoWebP_Example-Info.plist */,
+				AACCA796DA68AD0B77BD5E1E29023DD8 /* Pods-JJGuisoWebP_Example-umbrella.h */,
+				DEEE5F1C2AF5D0140F7D6D949E7E617A /* Pods-JJGuisoWebP_Example.debug.xcconfig */,
+				39B457CF01C42F6EBF04A9224D64D86F /* Pods-JJGuisoWebP_Example.release.xcconfig */,
+			);
+			name = "Pods-JJGuisoWebP_Example";
+			path = "Target Support Files/Pods-JJGuisoWebP_Example";
+			sourceTree = "<group>";
+		};
+		6C4088C3305499E4A24954FE9055010D /* WebPDecoder.framework */ = {
+			isa = PBXGroup;
+			children = (
+				ABEFB4DA9E1FB85971A64F3ACFCC436D /* Headers */,
+			);
+			name = WebPDecoder.framework;
+			path = WebPDecoder.framework;
+			sourceTree = "<group>";
+		};
+		6EDC2EA53EC2924B01578907C8DFBCC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D73A46D2D6CB00295A59F9A0D83C06C /* WebP.framework */,
+				86D07177B35C2B88DB1BE5507899227C /* WebPDecoder.framework */,
+				4A992BB960DD398B2A9F811C0D1250C2 /* WebPDemux.framework */,
+				B4EE1C7418A12FF73BA5D2E32665DA18 /* WebPMux.framework */,
+				450FBCF47872E7C1635168D804D42ABA /* WebP.framework */,
+				6C4088C3305499E4A24954FE9055010D /* WebPDecoder.framework */,
+				C2E02744BB831992C5728534F02B7445 /* WebPDemux.framework */,
+				03AA2A4CD3900AEC13AED46282B1820F /* WebPMux.framework */,
+			);
+			name = Frameworks;
+			path = src/Frameworks;
+			sourceTree = "<group>";
+		};
+		75F3079D7F78AC8B22EC1C92FDECF7D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BEDFD461A3CE6A4D232F77D671D42EA /* JJGuisoWebP.framework */,
+				769DA30B5FAC963D696FBDED415C83AA /* Pods_JJGuisoWebP_Example.framework */,
+				914D9D9B8F56069688F022F080EC26E8 /* Pods_JJGuisoWebP_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84ABC807ECFF05F0F82098E60C653423 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				C7146A31F8F353865B55B1206A4BDB57 /* WebPDemux.h */,
+				8B6B4BB4549581715891EEED57D037BD /* WebPDemuxDecode.h */,
+				1119DF48591F649EDD403BAB7569B947 /* WebPDemuxDemux.h */,
+				124B5EB0B12538AD2C36383CF64119F5 /* WebPDemuxMux_types.h */,
+				2A8ED3ABE2F2FBB56AB688A91A93F9B5 /* WebPDemuxTypes.h */,
+			);
+			name = Headers;
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		9C252C9ECE7F2969100A36EDB84980FE /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				B233D7D7628C47252EAA0906CECFB0B3 /* WebP.h */,
+				EFCE4B3439EBD64C838C5760E49245BD /* WebPDecode.h */,
+				73635156210327F46449E85EE3B5B278 /* WebPEncode.h */,
+				09D7283AE19C88BFBDB44320211DA8CC /* WebPTypes.h */,
+			);
+			name = Headers;
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		9FE0D9541ECC9D84F7F6E1DAE5E45738 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				34E4783FB026377C8EE536BA98C98B6B /* WebPMux.h */,
+				CC4993C7A1D9B8A4E1F530FAE4C2ED24 /* WebPMuxMux.h */,
+				6953D3A97A2A2935469FE7AAF9A0C60A /* WebPMuxMux_types.h */,
+				C8F1A52A22F95F589E3BD3096FE82378 /* WebPMuxTypes.h */,
+			);
+			name = Headers;
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		ABEFB4DA9E1FB85971A64F3ACFCC436D /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				DC1D93F5F3BBEEB7A68614EF8D8B6EB8 /* WebPDecoder.h */,
+				96580D2E5542FEB87F2479A4BC5A8473 /* WebPDecoderDecode.h */,
+				1B0A9BCEDF524B828B268E92B051AD6C /* WebPDecoderTypes.h */,
+			);
+			name = Headers;
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		AEB2C0971D101A2DEF1FBE378239C5B1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34329B68279C1F5D794B367799ABCF7D /* JJGuisoWebP */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B103CCA0F7777F4BD83684C4D287ED16 /* Pods-JJGuisoWebP_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				38D9C9D04B3E3E5A29DE45EE33189EDC /* Pods-JJGuisoWebP_Tests.modulemap */,
+				1994B39E40B40D124B25A0B85558178F /* Pods-JJGuisoWebP_Tests-acknowledgements.markdown */,
+				96C0D2976850F1099256B81BD85D61E6 /* Pods-JJGuisoWebP_Tests-acknowledgements.plist */,
+				C56354461318A80AD2FE48ACAD3F0367 /* Pods-JJGuisoWebP_Tests-dummy.m */,
+				A903CD7FE1B5B4EA8E159EA883F087DC /* Pods-JJGuisoWebP_Tests-Info.plist */,
+				64C4419BC51C6789FAE22E68C0719558 /* Pods-JJGuisoWebP_Tests-umbrella.h */,
+				79BF8C16E625BEE1F5B9A60257EAC72D /* Pods-JJGuisoWebP_Tests.debug.xcconfig */,
+				1F7350CB500C8F0BC4DE333630D67D66 /* Pods-JJGuisoWebP_Tests.release.xcconfig */,
+			);
+			name = "Pods-JJGuisoWebP_Tests";
+			path = "Target Support Files/Pods-JJGuisoWebP_Tests";
+			sourceTree = "<group>";
+		};
+		C2E02744BB831992C5728534F02B7445 /* WebPDemux.framework */ = {
+			isa = PBXGroup;
+			children = (
+				84ABC807ECFF05F0F82098E60C653423 /* Headers */,
+			);
+			name = WebPDemux.framework;
+			path = WebPDemux.framework;
+			sourceTree = "<group>";
+		};
+		CC2AD64BE0DB095EADE0A945F40786A2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				82A58C2565C6C7E1B0F9D030C1D4C2B1 /* JJGuisoWebP.podspec */,
+				1286BABE0A68F93DFF4941515130D567 /* LICENSE */,
+				AB77C5C4B77BCAF75EA2146485980365 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				AEB2C0971D101A2DEF1FBE378239C5B1 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				75F3079D7F78AC8B22EC1C92FDECF7D0 /* Products */,
+				12396DADA32551193434D33447900B8D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		03C2C8C888769D72EDB5322DFF8B80D9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00DDDC39AAFA81107C16B1549E16C9B3 /* Pods-JJGuisoWebP_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DE8636C7DB907C226FAC11FBE8EDCA5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67A0841A10E54F3CFCF9639E48914FD0 /* JJGuisoWebP-umbrella.h in Headers */,
+				62A7AFAE3ECD3ED59899B7DD3209D9F2 /* WebP.h in Headers */,
+				3661F23B3A9C6347EA41A34E9378BA03 /* WebPDecode.h in Headers */,
+				6FDE6847856847DE6A995602E3664907 /* WebPDecoder.h in Headers */,
+				FC03FDEB2FCF8B50F9A20A561FB4896F /* WebPDecoderDecode.h in Headers */,
+				C4DF8BD7DA2201212DBF271FFCFEF1B6 /* WebPDecoderTypes.h in Headers */,
+				224147B993E72C3600AC0172198A9106 /* WebPDemux.h in Headers */,
+				EACFBF55D40E7D1CA2565542538876F4 /* WebPDemuxDecode.h in Headers */,
+				56E9571B03EB05EFFDF58C52ADC78E1D /* WebPDemuxDemux.h in Headers */,
+				33D0E8B565FDE11D83B001DD1847392A /* WebPDemuxMux_types.h in Headers */,
+				0059480273C8C88CDD72C59C7320DC70 /* WebPDemuxTypes.h in Headers */,
+				070D8FF01E71372845A3900E9F3F8314 /* WebPEncode.h in Headers */,
+				140F17B951F52F948480C9B01A151B7F /* WebPMux.h in Headers */,
+				2334EF13A8E4EE806C50ED13106909DA /* WebPMuxMux.h in Headers */,
+				821BD1FA030D0F606EF3529727ACF85D /* WebPMuxMux_types.h in Headers */,
+				1A25F025BD47E89558ECD23CE6F2D14E /* WebPMuxTypes.h in Headers */,
+				AAE906A6C8A9CCB470E2C6077D6496A5 /* WebPTypes.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78A61C11E13AE5EDF498501A3C32F297 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F6F0998F17032ADFC349E67EE8D94EA /* Pods-JJGuisoWebP_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		97812530428441AA94B82A2939847E2F /* Pods-JJGuisoWebP_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03FC7717BF8991A299979FF7F7E452CE /* Build configuration list for PBXNativeTarget "Pods-JJGuisoWebP_Tests" */;
+			buildPhases = (
+				78A61C11E13AE5EDF498501A3C32F297 /* Headers */,
+				FF7E93B0724FE1C39FECBA86CE5740CA /* Sources */,
+				33E38B94EFA7486340E5E0220E97C9A4 /* Frameworks */,
+				1EE336B443D866F84F36F1E4E09840D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				037A1DE88CA0ADA13C9FC8CFB8FFB6E4 /* PBXTargetDependency */,
+			);
+			name = "Pods-JJGuisoWebP_Tests";
+			productName = "Pods-JJGuisoWebP_Tests";
+			productReference = 914D9D9B8F56069688F022F080EC26E8 /* Pods_JJGuisoWebP_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A06E75C2AB66206C76F4F3DC3042523E /* JJGuisoWebP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2079A963E3304B553023E1B2E61F341 /* Build configuration list for PBXNativeTarget "JJGuisoWebP" */;
+			buildPhases = (
+				5DE8636C7DB907C226FAC11FBE8EDCA5 /* Headers */,
+				FE955140459F6A43DAEAF2F414541BCE /* Sources */,
+				098404D334E2947AE0F26E426A9ACE33 /* Frameworks */,
+				BD1CA5ABEC486B68D7DF1C1B0F6FAF1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JJGuisoWebP;
+			productName = JJGuisoWebP;
+			productReference = 3BEDFD461A3CE6A4D232F77D671D42EA /* JJGuisoWebP.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CF7431E963762B43AE55A699D45844F5 /* Pods-JJGuisoWebP_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 953DECE4A9B9E0B9265127DD6374969B /* Build configuration list for PBXNativeTarget "Pods-JJGuisoWebP_Example" */;
+			buildPhases = (
+				03C2C8C888769D72EDB5322DFF8B80D9 /* Headers */,
+				0C46314AEE0A592242AF910D44B802F1 /* Sources */,
+				720768D3F03FA84D4F84FFB9BA1B7215 /* Frameworks */,
+				850B9FF1F4F8F04B80E264CA90AB5868 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15120DB4BB7350091B6C125FBC06DB16 /* PBXTargetDependency */,
+			);
+			name = "Pods-JJGuisoWebP_Example";
+			productName = "Pods-JJGuisoWebP_Example";
+			productReference = 769DA30B5FAC963D696FBDED415C83AA /* Pods_JJGuisoWebP_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 75F3079D7F78AC8B22EC1C92FDECF7D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A06E75C2AB66206C76F4F3DC3042523E /* JJGuisoWebP */,
+				CF7431E963762B43AE55A699D45844F5 /* Pods-JJGuisoWebP_Example */,
+				97812530428441AA94B82A2939847E2F /* Pods-JJGuisoWebP_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EE336B443D866F84F36F1E4E09840D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		850B9FF1F4F8F04B80E264CA90AB5868 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD1CA5ABEC486B68D7DF1C1B0F6FAF1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C46314AEE0A592242AF910D44B802F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34D284DF692EAEC567E7FBAA8DCD22BA /* Pods-JJGuisoWebP_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE955140459F6A43DAEAF2F414541BCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60B797062BFEC31B0CDA89C85E22CFF9 /* GuisoWebpDecoder.swift in Sources */,
+				E3939EAC6A5BF32C17F4E406E47E889B /* JJGuisoWebP-dummy.m in Sources */,
+				2984C18F9BFE7778AFFD6EF8D0B8777C /* WebPAnimated.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF7E93B0724FE1C39FECBA86CE5740CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA89EA91099E8A52D41F7FB12AD3ADDB /* Pods-JJGuisoWebP_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		037A1DE88CA0ADA13C9FC8CFB8FFB6E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JJGuisoWebP_Example";
+			target = CF7431E963762B43AE55A699D45844F5 /* Pods-JJGuisoWebP_Example */;
+			targetProxy = 5480C83C390234C119C9175B2FBBE0EE /* PBXContainerItemProxy */;
+		};
+		15120DB4BB7350091B6C125FBC06DB16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JJGuisoWebP;
+			target = A06E75C2AB66206C76F4F3DC3042523E /* JJGuisoWebP */;
+			targetProxy = 14109053D85CE628972A5EB7B58C124A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		42822D82B6E6069B44A41B88E065A736 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEEE5F1C2AF5D0140F7D6D949E7E617A /* Pods-JJGuisoWebP_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JJGuisoWebP_Example/Pods-JJGuisoWebP_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JJGuisoWebP_Example/Pods-JJGuisoWebP_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		431BA2B8298F0EE71735B9E0114E1955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		4ACF2F41B61C0E8B88C3D757348A2D90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FEB854CBEEE57F18FC839996A0898F8 /* JJGuisoWebP.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JJGuisoWebP/JJGuisoWebP-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JJGuisoWebP/JJGuisoWebP-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JJGuisoWebP/JJGuisoWebP.modulemap";
+				PRODUCT_MODULE_NAME = JJGuisoWebP;
+				PRODUCT_NAME = JJGuisoWebP;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6B5AFA15F1C57FB5479836FA5F0D6A98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39B457CF01C42F6EBF04A9224D64D86F /* Pods-JJGuisoWebP_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JJGuisoWebP_Example/Pods-JJGuisoWebP_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JJGuisoWebP_Example/Pods-JJGuisoWebP_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		79759604D78320E712558F49DF19AA9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		83824D3E999A7F43084D29B6BCD4BE3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64C4AA3D9519C1C7ED96775818838488 /* JJGuisoWebP.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JJGuisoWebP/JJGuisoWebP-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JJGuisoWebP/JJGuisoWebP-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JJGuisoWebP/JJGuisoWebP.modulemap";
+				PRODUCT_MODULE_NAME = JJGuisoWebP;
+				PRODUCT_NAME = JJGuisoWebP;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		921C1EFFBEB06CF87E43A5430810BB9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79BF8C16E625BEE1F5B9A60257EAC72D /* Pods-JJGuisoWebP_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JJGuisoWebP_Tests/Pods-JJGuisoWebP_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JJGuisoWebP_Tests/Pods-JJGuisoWebP_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A0E8088E104E7015CEBB8CEA97E62C67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F7350CB500C8F0BC4DE333630D67D66 /* Pods-JJGuisoWebP_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JJGuisoWebP_Tests/Pods-JJGuisoWebP_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JJGuisoWebP_Tests/Pods-JJGuisoWebP_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03FC7717BF8991A299979FF7F7E452CE /* Build configuration list for PBXNativeTarget "Pods-JJGuisoWebP_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				921C1EFFBEB06CF87E43A5430810BB9A /* Debug */,
+				A0E8088E104E7015CEBB8CEA97E62C67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79759604D78320E712558F49DF19AA9F /* Debug */,
+				431BA2B8298F0EE71735B9E0114E1955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		953DECE4A9B9E0B9265127DD6374969B /* Build configuration list for PBXNativeTarget "Pods-JJGuisoWebP_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42822D82B6E6069B44A41B88E065A736 /* Debug */,
+				6B5AFA15F1C57FB5479836FA5F0D6A98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2079A963E3304B553023E1B2E61F341 /* Build configuration list for PBXNativeTarget "JJGuisoWebP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83824D3E999A7F43084D29B6BCD4BE3F /* Debug */,
+				4ACF2F41B61C0E8B88C3D757348A2D90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

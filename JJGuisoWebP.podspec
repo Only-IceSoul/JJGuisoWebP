@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JJGuisoWebP'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of JJGuisoWebP.'
+  s.version          = '1.0'
+  s.summary          = 'Decode Animated Image '
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -28,9 +28,23 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/only-icesoul/JJGuisoWebP.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
 
-  s.source_files = 'JJGuisoWebP/Classes/**/*'
+  s.ios.deployment_target = '9.0'
+
+
+  s.source_files = ['src/**/*.{swift,h}']
+  s.swift_version = '5.0'
+ 
+
+  s.vendored_frameworks = 'src/Frameworks/*.framework'
+
+  s.ios.preserve_paths = 'src/Frameworks'
+  s.public_header_files = 'src/Frameworks/**/Headers/*.{h}'
+
+  # comment arm64 for xcode 11 if any error
+  s.pod_target_xcconfig = { 'ARCHS'  => '$(ARCHS_STANDARD)' ,
+ 'ONLY_ACTIVE_ARCH' => 'YES'}
+  s.user_target_xcconfig = { 'ARCHS'  => '$(ARCHS_STANDARD)', 'ONLY_ACTIVE_ARCH' => 'YES'}
   
   # s.resource_bundles = {
   #   'JJGuisoWebP' => ['JJGuisoWebP/Assets/*.png']
