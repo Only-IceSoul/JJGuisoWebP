@@ -1,5 +1,5 @@
 PODS:
-  - JJGuisoWebP (0.1.0)
+  - JJGuisoWebP (1.1)
 
 DEPENDENCIES:
   - JJGuisoWebP (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JJGuisoWebP: 6a0b581f0decea99886eb3a5c054636e6510a297
+  JJGuisoWebP: 828e224975585b85b2ada3f61148d9acd7948bae
 
 PODFILE CHECKSUM: b52a8531c0d4a51321056ded0fe9ff1c7a7d2f7b
 
